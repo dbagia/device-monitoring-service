@@ -1,0 +1,30 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "PostgreSQL database for device monitoring service",
+  "license": "MIT",
+  "author": "dipen.bagia@gmail.com",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "migration:create": "knex migrate:make -x ts",
+    "migration:up": "knex migrate:up",
+    "migration:down": "knex migrate:down",
+    "migration:all": "knex migrate:latest",
+    "migration:rollback:all": "knex migrate:rollback --all",
+    "migration:list": "knex migrate:list",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "knex": "^3.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "eslint": "^9.38.0",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

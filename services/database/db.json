@@ -1,0 +1,12 @@
+{
+  "diagnostics": [
+    {
+      "HW_version": "v1.0.0.",
+      "SW_version": "v8.3.4",
+      "FW_version": "v0.5.1",
+      "status": "live",
+      "checksum": "bb5cb9a9e97a85cddd70d00e97b4660"
+    }
+  ],
+  "health": [{ "capabilities": ["REST"] }]
+}

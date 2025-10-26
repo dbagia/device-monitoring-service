@@ -1,0 +1,12 @@
+{
+  "name": "monitoring-service",
+  "version": "1.0.0",
+  "description": "Network device diagnostics and monitoring service",
+  "license": "MIT",
+  "author": "dipen.bagia@gmail.com",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  }
+}
